@@ -14,23 +14,18 @@
 # limitations under the License.
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
 
-# Allow overlays to be excluded from enforcing RRO
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
+LOCAL_RRO_THEME := PrimaryColorBlack
 
-# fonts
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/themes/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+LOCAL_PRODUCT_MODULE := true
 
-# Themes stub
-PRODUCT_PACKAGES += \
-    ThemesStub
+LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
-# Primary Themes
-PRODUCT_PACKAGES += \
-    PrimaryColorBlackOverlay \
-    PrimaryColorDarkBlueOverlay \
-    PrimaryColorSolarizedOverlay \
-    PrimaryColorTranslucentOverlay
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+
+LOCAL_PACKAGE_NAME := PrimaryColorBlackOverlay
+LOCAL_SDK_VERSION := current
+
+include $(BUILD_RRO_PACKAGE)
