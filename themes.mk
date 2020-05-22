@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ThemesStub
 
-# Display Cutout Emulations
+# Display Cutout
 PRODUCT_PACKAGES += \
     DisplayCutoutEmulationCornerOverlay \
     DisplayCutoutEmulationDoubleOverlay \
@@ -36,11 +36,11 @@ PRODUCT_PACKAGES += \
     DisplayCutoutEmulationTallOverlay \
     DisplayCutoutEmulationWideOverlay
 
-# Fonts
+# Font
 PRODUCT_PACKAGES += \
     FontNotoSerifSourceOverlay
 
-# Icon Packs
+# Icon Pack
 PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
@@ -58,14 +58,14 @@ PRODUCT_PACKAGES += \
     IconPackRoundedSystemUIOverlay \
     IconPackRoundedThemePickerOverlay
 
-# Icon Shapes
+# Icon Shape
 PRODUCT_PACKAGES += \
     IconShapeRoundedRectOverlay \
     IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
     IconShapeTeardropOverlay \
 
-# Navigation Bar Modes
+# Navigation Bar
 PRODUCT_PACKAGES += \
     NavigationBarMode2ButtonOverlay \
     NavigationBarMode3ButtonOverlay \
@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
     NavigationBarModeGesturalOverlayNarrowBack \
     NavigationBarModeGesturalOverlayWideBack
 
-# Primary Colors
+# Primary Color
 PRODUCT_PACKAGES += \
     PrimaryColorBlackOverlay \
     PrimaryColorDarkBlueOverlay \
