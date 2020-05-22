@@ -28,7 +28,53 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ThemesStub
 
-# Primary Themes
+# Display Cutout Emulations
+PRODUCT_PACKAGES += \
+    DisplayCutoutEmulationCornerOverlay \
+    DisplayCutoutEmulationDoubleOverlay \
+    DisplayCutoutEmulationNarrowOverlay \
+    DisplayCutoutEmulationTallOverlay \
+    DisplayCutoutEmulationWideOverlay
+
+# Fonts
+PRODUCT_PACKAGES += \
+    FontNotoSerifSourceOverlay
+
+# Icon Packs
+PRODUCT_PACKAGES += \
+    IconPackCircularAndroidOverlay \
+    IconPackCircularLauncherOverlay \
+    IconPackCircularSettingsOverlay \
+    IconPackCircularSystemUIOverlay \
+    IconPackCircularThemePickerOverlay \
+    IconPackFilledAndroidOverlay \
+    IconPackFilledLauncherOverlay \
+    IconPackFilledSettingsOverlay \
+    IconPackFilledSystemUIOverlay \
+    IconPackFilledThemePickerOverlay \
+    IconPackRoundedAndroidOverlay \
+    IconPackRoundedLauncherOverlay \
+    IconPackRoundedSettingsOverlay \
+    IconPackRoundedSystemUIOverlay \
+    IconPackRoundedThemePickerOverlay
+
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeRoundedRectOverlay \
+    IconShapeSquareOverlay \
+    IconShapeSquircleOverlay \
+    IconShapeTeardropOverlay \
+
+# Navigation Bar Modes
+PRODUCT_PACKAGES += \
+    NavigationBarMode2ButtonOverlay \
+    NavigationBarMode3ButtonOverlay \
+    NavigationBarModeGesturalOverlay \
+    NavigationBarModeGesturalOverlayExtraWideBack \
+    NavigationBarModeGesturalOverlayNarrowBack \
+    NavigationBarModeGesturalOverlayWideBack
+
+# Primary Colors
 PRODUCT_PACKAGES += \
     PrimaryColorBlackOverlay \
     PrimaryColorDarkBlueOverlay \
